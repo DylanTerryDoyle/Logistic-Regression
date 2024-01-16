@@ -42,12 +42,12 @@
     <ClInclude Include="LBFGSpp\Param.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\stats\stats.h">
+    <ClInclude Include="src\stats.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="example\example1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -71,22 +71,22 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)lib\eigen3\;$(ProjectDir)lib\lbfgspp\;</ExternalIncludePath>
+    <ExternalIncludePath>C:\C++ Libraries\LBFGS++\include\LBFGSpp\;C:\C++ Libraries\Eigen3\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</ExternalIncludePath>
     <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)build\intermediaries\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)lib\eigen3\;$(ProjectDir)lib\lbfgspp\;</ExternalIncludePath>
+    <ExternalIncludePath>C:\C++ Libraries\LBFGS++\include\LBFGSpp\;C:\C++ Libraries\Eigen3\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</ExternalIncludePath>
     <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)build\intermediaries\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)lib\eigen3\;$(ProjectDir)lib\lbfgspp\;</ExternalIncludePath>
+    <ExternalIncludePath>C:\C++ Libraries\LBFGS++\include\LBFGSpp\;C:\C++ Libraries\Eigen3\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</ExternalIncludePath>
     <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)build\intermediaries\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)lib\eigen3\;$(ProjectDir)lib\lbfgspp\;</ExternalIncludePath>
+    <ExternalIncludePath>C:\C++ Libraries\LBFGS++\include\LBFGSpp\;C:\C++ Libraries\Eigen3\;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)</ExternalIncludePath>
     <OutDir>$(ProjectDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(ProjectDir)build\intermediaries\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
@@ -156,10 +156,10 @@
     <ClInclude Include="LBFGSpp\LineSearchNocedalWright.h" />
     <ClInclude Include="LBFGSpp\Param.h" />
     <ClInclude Include="LBFGSpp\SubspaceMin.h" />
-    <ClInclude Include="src\stats\stats.h" />
+    <ClInclude Include="src\stats.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="example\example1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Core" />
