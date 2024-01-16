@@ -42,7 +42,7 @@
     <ClInclude Include="LBFGSpp\Param.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\stats.h">
+    <ClInclude Include="src\logistic_regression.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

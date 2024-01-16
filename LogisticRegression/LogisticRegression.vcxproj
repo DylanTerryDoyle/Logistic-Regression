@@ -156,7 +156,7 @@
     <ClInclude Include="LBFGSpp\LineSearchNocedalWright.h" />
     <ClInclude Include="LBFGSpp\Param.h" />
     <ClInclude Include="LBFGSpp\SubspaceMin.h" />
-    <ClInclude Include="src\stats.h" />
+    <ClInclude Include="src\logistic_regression.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="example\example1.cpp" />
